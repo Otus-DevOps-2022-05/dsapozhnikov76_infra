@@ -2,12 +2,11 @@ name: Auto Assign
 
 on:
   pull_request:
-    branches-ignore: main
+    branches-ignore: [ "main" ]
 
 jobs:
   add-reviews:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Auto Assign
-      uses: kentaro-m/auto-assign-action@v1.1.2
+      - uses: kentaro-m/auto-assign-action@v1.1.2
