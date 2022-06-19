@@ -29,8 +29,7 @@ Host someinternalhost
 
 3. ****Подключение через VPN****
 
-bastion_IP = 51.250.80.65 \
-someinternalhost_IP = 10.128.0.6 
+bastion_IP = 51.250.80.65
 
-
+someinternalhost_IP = 10.128.0.6
 
