@@ -36,3 +36,12 @@ someinternalhost_IP = 10.128.0.6
 4. ****Доп. задание - Подключение сертификата LetsEncrypt****
 
 Адрес - [https://51-250-80-65.sslip.io/](https://51-250-80-65.sslip.io/)
+
+
+
+# ДЗ 4
+
+testapp_IP = 51.250.78.161
+
+testapp_port = 9292
+
