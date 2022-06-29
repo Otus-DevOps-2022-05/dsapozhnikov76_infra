@@ -1,0 +1,6 @@
+{
+    "service_account_key_file": "xxxx/key.json",
+    "folder_id": "b1gXXXXXXXXXXXXXXk56bpu",
+    "subnet_id": "e9bgvkXXXXXXXXXXXXXXXrchgj",
+    "source_image_family": "ubuntu-1604-lts"
+}
