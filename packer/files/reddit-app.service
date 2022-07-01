@@ -1,0 +1,11 @@
+[Unit]
+Description="Simple Reddit App"
+After=network.target mongodb.service
+
+[Service]
+Type=simple
+WorkingDirectory=/app/reddit
+ExecStart=/usr/local/bin/puma
+
+[Install]
+WantedBy=multi-user.target
