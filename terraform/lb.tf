@@ -10,7 +10,7 @@ resource "yandex_lb_target_group" "reddit-apps" {
   }
 }
 
-resource "yandex_lb_network_load_balancer" "reddit-app-lb" {
+resource "yandex_lb_network_load_balancer" "reddit-app-nlb" {
   name = "reddit-app-lb"
 
   listener {

@@ -45,3 +45,28 @@ testapp_IP = 51.250.78.161
 
 testapp_port = 9292
 
+# ДЗ 7
+
+1. Установил terraform 
+2. Добавил в main.tf провайдера Yandex
+3. Cделал terraform init
+4. Собрал файл ~/.terraformrc со ссылкой на mirror провайдера
+````
+provider_installation {
+  network_mirror {
+    url = "https://terraform-mirror.yandexcloud.net/"
+    include = ["registry.terraform.io/*/*"]
+  }
+  direct {
+    exclude = ["registry.terraform.io/*/*"]
+  }
+}
+````
+5. Выполнил настройку main.tf чтобы создавать VM
+   - Сделал создание VM по образу reddit-base
+   - Добавил provisioning, connection с пользователем appuser
+   - Проверил, что VM создается и доступен
+
+6. Задание со звездой, добавил балансер, переделал main.tf на создание 2 VM
+
+
