@@ -22,3 +22,8 @@ variable subnet_id{
 variable service_account_key_file{
   description = "key.json"
 }
+
+variable private_key {
+  # Описание переменной
+  description = "Private key used for ssh access"
+}
