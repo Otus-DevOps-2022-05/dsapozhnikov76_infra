@@ -4,7 +4,6 @@
    "created_at": "2022-06-29T19:19:15.381300822Z",
    "key_algorithm": "RSA_2048",
    "public_key": "-----BEGIN PUBLIC KEY-----",
-   "private_key": "-----BEGIN PRIVATE KEY-----\n-----END PRIVATE KEY-----\n",
-   "image_family": "reddit-base"
+   "private_key": "-----BEGIN PRIVATE KEY-----\n-----END PRIVATE KEY-----\n"
 }
 

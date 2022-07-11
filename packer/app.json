@@ -1,15 +1,16 @@
 {
-  "builders": [
-    {
-      "type": "yandex",
-      "source_image_family": "{{ user `source_image_family` }}",
-      "image_name": "reddit-app-{{timestamp}}",
-      "ssh_username": "ubuntu",
-      "use_ipv4_nat": "true",
-      "service_account_key_file": "{{ user `service_account_key_file` }}",
-      "folder_id": "{{ user `folder_id` }}"
-    }
-  ],
+   "builders": [
+      {
+        "type": "yandex",
+        "source_image_family": "{{ user `source_image_family` }}",
+        "image_name": "reddit-app-{{timestamp}}",
+        "image_family": "reddit-base",
+        "ssh_username": "ubuntu",
+        "use_ipv4_nat": "true",
+        "service_account_key_file": "{{ user `service_account_key_file` }}",
+        "folder_id": "{{ user `folder_id` }}"
+      }
+    ],
   "provisioners": [
     {
       "type": "shell",
