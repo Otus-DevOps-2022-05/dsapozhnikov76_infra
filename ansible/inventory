@@ -1,0 +1,1 @@
+appserver ansible_host=51.250.79.155 ansible_user=ubuntu ansible_private_key_file=~/.ssh/appuser
