@@ -130,3 +130,18 @@ provider_installation {
  4. Зашифровал плейбук с созданием пользователей
 
 ## ДЗ 10 Ansible - 4
+
+### Vagrant
+
+Выполнено основное задание.
+
+Так как изначально использовал пользователя ubuntu делаю без переменной {{ deploy_user }}
+
+Задание * выполнено
+
+Добавлениe в Vargantfile extra_vars 
+````
+ansible.extra_vars = {
+    'nginx_sites' => { 'default' => ['listen 80','server_name "reddit"','location / {proxy_pass http://127.0.0.1:9292;}'] }
+}
+````
