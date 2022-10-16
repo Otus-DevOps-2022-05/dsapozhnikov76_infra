@@ -3,7 +3,7 @@
   become: true
 
   vars:
-   db_host: 192.168.10.34
+   db_host: 192.168.10.16
 
   roles:
     - app
