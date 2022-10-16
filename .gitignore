@@ -10,6 +10,4 @@
 .terraform.lock.hcl
 
 *.retry
-jdauphant.nginx
-
-
+/jdauphant.nginx/
