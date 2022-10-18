@@ -1,7 +1,8 @@
 galaxy_info:
   author: Dmitriy Sapozhnikov
-  description: app
+  description:
   company: your company (optional)
+  namespace: default
 
   license: GPL-2.0-or-later
 
